@@ -1,0 +1,47 @@
+@keyframes img_change{
+    0%{background-image: url(/Users/sohanprabhu/Desktop/stealthcrazy.me/icons/destroyer.png);}
+    50%{
+        background-image: url(/Users/sohanprabhu/Desktop/stealthcrazy.me/icons/destroyer.jpeg);
+    }
+    100%{background-image: url(/Users/sohanprabhu/Desktop/stealthcrazy.me/icons/destroyer.png);}
+
+}
+body{
+    background-color: rgb(23,41,56);
+    
+}
+
+.welcome_header{
+    color:aliceblue;
+    background-image: linear-gradient(black ,rgb(23,41,56) );
+}
+header{
+    background-color:rgb(0, 0, 0) !important;
+    
+}
+.destroyer_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.destroyer_img div{
+    width:239px;
+    height:240px;
+    background-image: url(/Users/sohanprabhu/Desktop/stealthcrazy.me/icons/destroyer.png);
+    
+}
+.destroyer_img div:hover{
+    animation-name: img_change;
+    animation-duration: 5s;
+}
+
+.item_content{
+    color:aliceblue;
+    background-color: none;
+    background-image:linear-gradient(to bottom right,black ,rgb(23,41,56) );
+}
+.footer{
+    color:aliceblue;
+    background-color: none;
+    background-image:linear-gradient(to bottom right,black ,rgb(23,41,56) );   
+}
