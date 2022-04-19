@@ -1,9 +1,9 @@
 @keyframes img_change{
-    0%{background-image: url(/Users/sohanprabhu/Desktop/stealthcrazy.me/icons/destroyer.png);}
+    0%{background-image: url(destroyer.png);}
     50%{
-        background-image: url(/Users/sohanprabhu/Desktop/stealthcrazy.me/icons/destroyer.jpeg);
+        background-image: url(destroyer.jpeg);
     }
-    100%{background-image: url(/Users/sohanprabhu/Desktop/stealthcrazy.me/icons/destroyer.png);}
+    100%{background-image: url(destroyer.png);}
 
 }
 body{
